@@ -11,10 +11,10 @@ _A machine that screams at different frequencies, tones, breathiness, volumes, a
 
 ## Setup/Installation Requirements
 
-*_Prime the uvula_
-*_Honk the nose_
-*_Throw the entire machine at the wall_
-*_Now your machine is primed to scream. Wind the crank!_
+*_Prime the uvula_  
+*_Honk the nose_  
+*_Throw the entire machine at the wall_  
+*_Now your machine is primed to scream. Wind the crank!_  
 
 _Connection to the ScreamTeam server will allow you to share your unique screams of various perceivable meanings and levels of discomfort with everyone. Private servers can be established as well, as long as they are connected to Screamteam.yellsoft.net
 
