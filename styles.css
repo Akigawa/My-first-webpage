@@ -56,7 +56,7 @@ ul {
 @font-face {
 
     font-family: 'Jokerman'; /*a name to be used later*/
-    src: url(C:/Users/sonos/Desktop/my-first-webpage/css/fonts/Jokerman-Regular.ttf); /*URL to font*/
+    src: url(./css/fonts/Jokerman-Regular.ttf); /*URL to font*/
 }
 @media screen and (min-width:500px)
 {
@@ -70,7 +70,7 @@ ul {
 }
 @media screen and (min-width:699px) {
 
-  .Celery
+  #Celery
   {
 
     animation-name: celery;
@@ -82,7 +82,7 @@ ul {
 
 }
 
-.Celery:
+#Celery:
 {
 
 }
