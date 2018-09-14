@@ -1,3 +1,8 @@
+
+
+
+
+
 .important
 {
 font-size: 72px;
@@ -22,17 +27,10 @@ float:center;
 }
 
 h2 {
-  border-color: green;
-  background-color: red;
-  width:30%;
-  font-style: italic;
-  text-align: center;
-  z-index: 1000;
 }
-
 p {
 
-  font-family: sans-serif;
+
 }
 
 ul {
@@ -49,26 +47,58 @@ ul {
 {
 
         animation-name: rotate;
-        animation-duration: .5s;
+        animation-duration: .4s;
         animation-iteration-count: infinite;
 
 
 
 }
+@font-face {
 
+    font-family: 'Jokerman'; /*a name to be used later*/
+    src: url(C:/Users/sonos/Desktop/my-first-webpage/css/fonts/Jokerman-Regular.ttf); /*URL to font*/
+}
+@media screen and (min-width:500px)
+{
+
+  p {
+
+      font-family: 'Jokerman';
+      background-color: darkgreen;
+  }
+
+}
+@media screen and (min-width:699px) {
+
+  .Celery
+  {
+
+    animation-name: celery;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transition: all 1s;
+
+  }
+
+}
+
+.Celery:
+{
+
+}
+@keyframes celery {
+  0%  {transform: translateX(0px) scaleX(-1);}
+  15% {transform: translateX(0px) scaleX(1);}
+  40% {transform: translateX(500px) scaleX(2) ;}
+  50% {transform: translateX(500px) scaleX(1);}
+  76% {transform: translateX(500px) scaleX(-1);}
+  90%  {transform: translateX(0px) scaleX(-2);}
+  100%  {transform: translateX(0px) scaleX(-1);}
+}
 @keyframes rotate {
-  from{
-  0%  transform: rotate(000deg) translateX(00px) translateY(00px);
-  25% transform: rotate(180deg) translateX(100px) translateY(100px) scaleX(3);
-  50%
-  100% transform:rotate(360deg);
-  }
-  to{
 
+  0%  {transform: rotate(000deg);}
 
-  }
-  to{
-    transform:rotate(360deg);
-  }
-            z-index:100;
+  100% {transform:rotate(359deg);}
+          #z-index:100;
 }
